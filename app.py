@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Diccionario del alfabeto militar
+# Military alphabet dictionary
 military_alphabet = {
     'a': 'Alfa', 'b': 'Bravo', 'c': 'Charlie', 'd': 'Delta', 'e': 'Echo',
     'f': 'Foxtrot', 'g': 'Golf', 'h': 'Hotel', 'i': 'India', 'j': 'Juliett',
@@ -12,13 +12,13 @@ military_alphabet = {
     'z': 'Zulu'
 }
 
-# Diccionario adicional para caracteres acentuados
+# Additional dictionary for accented characters
 accented_characters = {
     'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u',
     'ü': 'u', 'ñ': 'n'
 }
 
-# Función para traducir al alfabeto militar
+# Function to translate to military alphabet
 def to_military_alphabet(word):
     word = word.lower()
     translation = []
@@ -28,7 +28,7 @@ def to_military_alphabet(word):
         if letter in military_alphabet:
             translation.append(military_alphabet[letter])
         else:
-            translation.append(letter)  # Mantener caracteres no alfabéticos
+            translation.append(letter)  # Keep non-alphabetic characters
     return ' '.join(translation)
 
 @app.route("/", methods=["GET", "POST"])

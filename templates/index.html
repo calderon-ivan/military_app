@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alfabeto Militar</title>
+    <title>Military Alphabet</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Traductor al Alfabeto Militar</h1>
+        <h1>Military alphabet translator</h1>
         <form method="post">
-            <input type="text" name="word" placeholder="Ingresa una palabra o frase" required>
-            <button type="submit">Traducir</button>
+            <input type="text" name="word" placeholder="Enter a word or sentence" required>
+            <button type="submit">Translate</button>
         </form>
         {% if result %}
         <div class="result">
-            <h2>Traducción:</h2>
+            <h2>Translation:</h2>
             <p><strong>{{ word }}</strong> -> {{ result }}</p>
         </div>
         {% endif %}
