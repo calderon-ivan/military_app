@@ -1,15 +1,18 @@
 # Traductor al Alfabeto Militar
 
-Este proyecto es una aplicación web sencilla que convierte palabras o frases al alfabeto militar (también conocido como alfabeto fonético). Es útil tanto para aprender las palabras clave del alfabeto militar como para traducir fácilmente texto a este sistema.
+¡Hola! Este repositorio es el primer proyecto que he desarrollo yo mismo y que estoy subiendo ahora a GitHub.
+
+Se trata de una webapp sencilla que convierte palabras o frases al alfabeto militar (también conocido como alfabeto fonético). Es útil tanto para aprender las palabras clave del alfabeto militar como para traducir fácilmente texto a este sistema.
 
 ## Características
 
 - Convierte caracteres alfabéticos (a-z) a su equivalente en alfabeto militar.
 - Traduce palabras con caracteres acentuados (á, é, í, ó, ú, ñ) usando su versión sin acento.
 - Mantiene caracteres no alfabéticos (como números y signos de puntuación) sin alteraciones.
-- Interfaz web limpia y sencilla para interactuar con la app.
-
+  
 ## Tecnologías utilizadas
+
+He utilizado VSCode para gestionar todos estos repositorios y tamién he hecho uso de:
 
 - **Flask**: Framework web de Python para crear la aplicación web.
 - **HTML/CSS**: Para crear la interfaz de usuario.
