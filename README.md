@@ -19,6 +19,7 @@ I have used VSCode to manage all these repositories, and I have also made use of
 - **Python**: The programming language used for the translation logic and web server.
 
 ## How it Works
+[Here](https://www.loom.com/share/14c50ab5b418406c9b9d6c09ec047aea?sid=dcf2cf36-c4be-461e-aecf-371a3a09cda8) you can watch a demo of me using the translator.
 
 1. The user inputs a word or phrase in the search bar on the web.
 2. The app translates each letter to the corresponding military alphabet (e.g., "A" to "Alfa", "B" to "Bravo", etc.).
