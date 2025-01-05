@@ -1,44 +1,50 @@
-# Traductor al Alfabeto Militar
+# Military Alphabet Translator
 
-¡Hola! Este repositorio es el primer proyecto que he desarrollo yo mismo y que estoy subiendo ahora a GitHub.
+Hello! This repository is the first project I have developed myself, and I am uploading it to GitHub now.
 
-Se trata de una webapp sencilla que convierte palabras o frases al alfabeto militar (también conocido como alfabeto fonético). Es útil tanto para aprender las palabras clave del alfabeto militar como para traducir fácilmente texto a este sistema.
+This is a simple web app that converts words or phrases into the military alphabet (also known as the phonetic alphabet). It is useful for both learning the key words of the military alphabet and easily translating text into this system.
 
-## Características
+## Features
 
-- Convierte caracteres alfabéticos (a-z) a su equivalente en alfabeto militar.
-- Traduce palabras con caracteres acentuados (á, é, í, ó, ú, ñ) usando su versión sin acento.
-- Mantiene caracteres no alfabéticos (como números y signos de puntuación) sin alteraciones.
-  
-## Tecnologías utilizadas
+- Converts alphabetic characters (a-z) to their equivalent in the military alphabet.
+- Translates words with accented characters (á, é, í, ó, ú, ñ) by using their unaccented version.
+- Keeps non-alphabetic characters (such as numbers and punctuation marks) unchanged.
 
-He utilizado VSCode para gestionar todos estos repositorios y tamién he hecho uso de:
+## Technologies Used
 
-- **Flask**: Framework web de Python para crear la aplicación web.
-- **HTML/CSS**: Para crear la interfaz de usuario.
-- **Python**: Lenguaje de programación utilizado para la lógica de traducción y servidor web.
+I have used VSCode to manage all these repositories, and I have also made use of:
 
-## ¿Cómo funciona?
+- **Flask**: A Python web framework to create the web application.
+- **HTML/CSS**: For creating the user interface.
+- **Python**: The programming language used for the translation logic and web server.
 
-1. El usuario ingresa una palabra o frase en la barra de búsqueda de la web.
-2. La aplicación traduce cada letra al alfabeto militar correspondiente (como "A" a "Alfa", "B" a "Bravo", etc.).
-3. La traducción se muestra en la misma página, listando el alfabeto militar para cada letra.
+## How it Works
 
-## Instalar y Ejecutar Localmente
+1. The user inputs a word or phrase in the search bar on the web.
+2. The app translates each letter to the corresponding military alphabet (e.g., "A" to "Alfa", "B" to "Bravo", etc.).
+3. The translation is displayed on the same page, listing the military alphabet for each letter.
 
-Si quieres probar la aplicación de manera local en tu máquina, sigue estos pasos:
+This is how it looks like when you enter the webapp:
+![preview](https://github.com/user-attachments/assets/12fc7d7c-b55a-4137-956b-78153788952d)
 
-### 1. Clona este repositorio
+And this is the output of the webapp when you use it:
+![translation](https://github.com/user-attachments/assets/cf68d872-eeef-4e5c-84ba-482005cbd78b)
+
+## Install and Run Locally
+
+If you'd like to try running the app locally on your machine, follow these steps:
+
+### 1. Clone this repository
 
 ```bash
-git clone https://github.com/tu-usuario/alfabeto-militar.git
-cd alfabeto-militar
+git clone https://github.com/your-user/military-alphabet.git
+cd military-alphabet
 ```
 
-### 2. Ejecuta esta aplicación
+### 2. Run this application
 
 ```bash
 python app.py
 ```
 
-Por defecto, la aplicación estará corriendo en http://localhost:5000. Solo abre esta URL en tu navegador y podrás empezar a traducir palabras al alfabeto militar.
+By default, the app will be running at http://localhost:5000. Just open this URL in your browser, and you'll be able to start translating words into the military alphabet.
